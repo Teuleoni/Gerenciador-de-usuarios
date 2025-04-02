@@ -1,3 +1,19 @@
+* {
+  max-width: 100%; /* Impede elementos de ultrapassarem a tela */
+  box-sizing: border-box; /* Garante que padding/borda não aumentem o tamanho */
+}
+
+body {
+  overflow-x: hidden; /* Impede scroll lateral */
+}
+
+.container {
+  width: 100%;
+  max-width: 500px; /* Limite pra telas grandes */
+  margin: 0 auto; /* Centraliza */
+  padding: 20px;
+}
+
 #root {
   max-width: 1280px;
   margin: 0 auto;
