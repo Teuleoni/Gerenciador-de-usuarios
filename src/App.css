@@ -5,6 +5,7 @@
 
 body {
   overflow-x: hidden; /* Impede scroll lateral */
+  color: var(--secundary--color);
 }
 
 .container {

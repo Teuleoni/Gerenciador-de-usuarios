@@ -1,7 +1,7 @@
-import { ChevronRightIcon, TrashIcon } from "lucide-react";
+import { ChevronRightIcon, Fullscreen, TrashIcon } from "lucide-react";
 import { useNavigate } from "react-router-dom";
 
-function Tasks({ tasks, onTaskClick, onTaskDelete }) {
+export default function Tasks({ tasks, onTaskClick, onTaskDelete }) {
   const navigate = useNavigate();
 
   function onSeeDetailsClick(task) {
@@ -40,5 +40,3 @@ function Tasks({ tasks, onTaskClick, onTaskDelete }) {
     </ul>
   );
 }
-
-export default Tasks;

@@ -3,6 +3,7 @@ import AddTask from "./componentes/AddTask";
 import Tarefas from "./componentes/Tasks";
 import { v4 } from "uuid";
 import Title from "./componentes/title";
+import { GitCommit } from "lucide-react";
 
 function App() {
   const [tasks, setTasks] = useState(
@@ -34,9 +35,8 @@ function App() {
     setTasks([...tasks, newTasks]);
   }
 
-  useEffect(() => {
-    localStorage.setItem("tasks", JSON.stringify(tasks));
-  }, [tasks]);
+  useEffect(() => {}, [tasks]);
+  localStorage.setItem("tasks", JSON.stringify(tasks));
 
   useEffect(() => {
     const fetchTasks = async () => {
