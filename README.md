@@ -1,3 +1,17 @@
+<div align="center">
+  <img width="550px" src="src/img/Gerenciador.png" />
+</div>
+
+## ✅ Status do Projeto
+
+🟢 **Finalizado** — todas as funcionalidades foram implementadas e o projeto está pronto para ser demonstrado.
+
+## 🔗 Production VERSEL
+
+[🔗 Acesse o projeto online](https://curso-de-react-mauve.vercel.app/)
+
+---
+
 # 📋 Gerenciador de Tarefas com React
 
 Projeto finalizado desenvolvido com foco em praticar e consolidar conhecimentos em **React**, **React Router DOM** e **Tailwind CSS**. Ele permite que o usuário adicione, visualize e exclua tarefas de forma simples e funcional.
@@ -50,7 +64,7 @@ src/
 1. Acesse a pasta do projeto:
 
 ```bash
-cd nome-do-projeto
+cd Gerenciador-de-usuarios
 ```
 
 2. Instale as dependências:
@@ -65,19 +79,7 @@ npm install
 npm run dev
 ```
 
-> 💡 Certifique-se de ter o **Node.js** instalado em sua máquina.
-
----
-
-## 🔗 Deploy
-
-[🔗 Acesse o projeto online](https://curso-de-react-mauve.vercel.app/)
-
----
-
-## 📌 Status do Projeto
-
-🟢 **Finalizado** — todas as funcionalidades foram implementadas e o projeto está pronto para ser demonstrado.
+> 💡 Certifique-se de ter o **Node.js** v22.14.0 instalado em sua máquina.
 
 ---
 
@@ -85,3 +87,5 @@ npm run dev
 
 Desenvolvido por **Mateus Leoni**.  
 Entre em contato: [LinkedIn](https://www.linkedin.com/in/mateus-leoni-689522296/) | [GitHub](https://github.com/Teuleoni)
+
+---
